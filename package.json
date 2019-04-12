@@ -1,0 +1,35 @@
+{
+  "name": "eminent_domain_online_heroku",
+  "version": "0.3.0",
+  "description": "A card game about space exploration and galactic empire building.",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "socket.io": "^2.2.0",
+    "ws": "^6.2.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0",
+    "sirv-cli": "^0.2.3",
+    "svelte": "^2.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gh0ysTschool/Eminent_Domain_Online_Heroku"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
