@@ -457,7 +457,7 @@ var app = (function () {
 				setStyle(img, "width", "100%");
 				setStyle(img, "height", "100%");
 				setStyle(img, "z-index", "-1");
-				img.src = img_src_value = "" + (ctx.url+ctx.selectedfaction) + "playersheet.png";
+				img.src = img_src_value = "" + (ctx.url+ctx.selectedfaction) + "playersheet.PNG";
 				addLoc(img, file, 5, 1, 168);
 				addListener(div0, "click", click_handler_1);
 				addListener(div0, "tap", tap_handler_1);
@@ -528,7 +528,7 @@ var app = (function () {
 				setStyle(div6, "height", "19%");
 				setStyle(div6, "background-size", "contain");
 				setStyle(div6, "background-repeat", "no-repeat");
-				setStyle(div6, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook0.png)");
+				setStyle(div6, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook0.PNG)");
 				addLoc(div6, file, 13, 2, 1494);
 				addListener(div7, "click", click_handler_8);
 				addListener(div7, "tap", tap_handler_8);
@@ -539,7 +539,7 @@ var app = (function () {
 				setStyle(div7, "height", "19%");
 				setStyle(div7, "background-size", "contain");
 				setStyle(div7, "background-repeat", "no-repeat");
-				setStyle(div7, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook1.png)");
+				setStyle(div7, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook1.PNG)");
 				addLoc(div7, file, 14, 2, 1743);
 				addListener(div8, "click", click_handler_9);
 				addListener(div8, "tap", tap_handler_9);
@@ -550,7 +550,7 @@ var app = (function () {
 				setStyle(div8, "height", "19%");
 				setStyle(div8, "background-size", "contain");
 				setStyle(div8, "background-repeat", "no-repeat");
-				setStyle(div8, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook2.png)");
+				setStyle(div8, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook2.PNG)");
 				addLoc(div8, file, 15, 2, 1993);
 				addListener(div9, "click", click_handler_10);
 				addListener(div9, "tap", tap_handler_10);
@@ -561,7 +561,7 @@ var app = (function () {
 				setStyle(div9, "height", "19%");
 				setStyle(div9, "background-size", "contain");
 				setStyle(div9, "background-repeat", "no-repeat");
-				setStyle(div9, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook3.png)");
+				setStyle(div9, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook3.PNG)");
 				addLoc(div9, file, 16, 2, 2242);
 				addListener(div10, "click", click_handler_11);
 				addListener(div10, "tap", tap_handler_11);
@@ -572,7 +572,7 @@ var app = (function () {
 				setStyle(div10, "height", "19%");
 				setStyle(div10, "background-size", "contain");
 				setStyle(div10, "background-repeat", "no-repeat");
-				setStyle(div10, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook4.png)");
+				setStyle(div10, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook4.PNG)");
 				addLoc(div10, file, 17, 2, 2492);
 				addListener(div11, "click", click_handler_12);
 				addListener(div11, "tap", tap_handler_12);
@@ -583,7 +583,7 @@ var app = (function () {
 				setStyle(div11, "height", "19%");
 				setStyle(div11, "background-size", "contain");
 				setStyle(div11, "background-repeat", "no-repeat");
-				setStyle(div11, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook5.png)");
+				setStyle(div11, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook5.PNG)");
 				addLoc(div11, file, 18, 2, 2741);
 				div12.className = "selectscreen";
 				setStyle(div12, "visibility", "hidden");
@@ -626,17 +626,17 @@ var app = (function () {
 			},
 
 			p: function update(changed, ctx) {
-				if ((changed.url || changed.selectedfaction) && img_src_value !== (img_src_value = "" + (ctx.url+ctx.selectedfaction) + "playersheet.png")) {
+				if ((changed.url || changed.selectedfaction) && img_src_value !== (img_src_value = "" + (ctx.url+ctx.selectedfaction) + "playersheet.PNG")) {
 					img.src = img_src_value;
 				}
 
 				if (changed.selectedfaction) {
-					setStyle(div6, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook0.png)");
-					setStyle(div7, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook1.png)");
-					setStyle(div8, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook2.png)");
-					setStyle(div9, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook3.png)");
-					setStyle(div10, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook4.png)");
-					setStyle(div11, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook5.png)");
+					setStyle(div6, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook0.PNG)");
+					setStyle(div7, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook1.PNG)");
+					setStyle(div8, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook2.PNG)");
+					setStyle(div9, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook3.PNG)");
+					setStyle(div10, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook4.PNG)");
+					setStyle(div11, "background-image", "url(./images/" + ctx.selectedfaction + "spellbook5.PNG)");
 				}
 			},
 
@@ -778,7 +778,7 @@ var app = (function () {
 
 				addListener(img, "click", click_handler);
 				addListener(img, "tap", tap_handler);
-				img.src = img_src_value = "./images/" + ctx.faction + "banner.png";
+				img.src = img_src_value = "./images/" + ctx.faction + "banner.PNG";
 				addLoc(img, file, 2, 2, 61);
 			},
 
@@ -789,7 +789,7 @@ var app = (function () {
 			p: function update(changed, _ctx) {
 				ctx = _ctx;
 				img._svelte.ctx = ctx;
-				if ((changed.factions) && img_src_value !== (img_src_value = "./images/" + ctx.faction + "banner.png")) {
+				if ((changed.factions) && img_src_value !== (img_src_value = "./images/" + ctx.faction + "banner.PNG")) {
 					img.src = img_src_value;
 				}
 			},
