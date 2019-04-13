@@ -1,11 +1,19 @@
 var CACHE_NAME = 'cw-service-worker';
-var version = 'v1::';
+var version = 'v2::';
 var urlsToCache = [
   // '/',
   // '/sw.js',
   // '/bundle.js',
   // '/stylesheets/global.css',
   // '/manifest.json',
+  '/images/blackgoatplayersheet.PNG',
+  '/images/greatcthulhuplayersheet.PNG',
+  '/images/crawlingchaosplayersheet.PNG',
+  '/images/yellowsignplayersheet.PNG',
+  '/images/sleeperplayersheet.PNG',
+  '/images/windwalkerplayersheet.PNG',
+  '/images/openerofthewayplayersheet.PNG',
+  '/images/tchotchoplayersheet.PNG',
 ];
 
 self.addEventListener('install', function(event) {
